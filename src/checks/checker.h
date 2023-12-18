@@ -13,8 +13,6 @@
 #ifndef CHECKER_H
 # define CHECKER_H
 
-# include <stdio.h>
-
 char	**is_valid(char *str);
 int		is_ber(char *str);
 void	free_map(char **map);
